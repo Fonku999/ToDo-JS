@@ -1,0 +1,79 @@
+
+#container{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+header{
+    background-color:goldenrod;
+    width: 100%;
+    padding-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+     
+}
+
+header h1{
+    color: rgb(138, 32, 41);
+    text-align: center;
+}
+header form{
+    padding:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+header form input{
+
+    border: 3px solid slategrey li;
+    
+}
+
+header form button{    
+    width: 100px;
+    height: 50px;   
+}
+
+
+
+div:first-child form select{
+
+    margin: 20px;
+    
+    
+}
+
+div:first-child form input{
+   margin: 20px; 
+   border-radius: 50px;
+}
+
+#tareasPending div{
+    display: flex ;
+    justify-content: center;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 25px;
+}
+#tareasPending button{
+    width: 50%;
+    background-color:rgba(231, 227, 14, 0.404) ;
+    color:white;   
+    font-size: 1.2em; 
+    border-radius: 50px;
+    
+}
+ #tareasPending h2{        
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+    color: whitesmoke;       
+    
+}
